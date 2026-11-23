@@ -1,0 +1,2670 @@
+[
+    {
+        "id": "d57922aa9148f385",
+        "type": "tab",
+        "label": "MQTT IN",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "2fb409831d11f58d",
+        "type": "tab",
+        "label": "MQTT OUT",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "8fc164d3fac9e007",
+        "type": "group",
+        "z": "d57922aa9148f385",
+        "name": "ESTILO / FORMATO DASHBOARD",
+        "style": {
+            "stroke": "#ffff00",
+            "label": true,
+            "label-position": "n",
+            "color": "#000000",
+            "fill": "#d1d1d1"
+        },
+        "nodes": [
+            "ee39ba15fce30df0",
+            "6face0fcaeb593a2"
+        ],
+        "x": 14,
+        "y": 979,
+        "w": 272,
+        "h": 122
+    },
+    {
+        "id": "7249395a009e3ff5",
+        "type": "group",
+        "z": "d57922aa9148f385",
+        "name": "MÉTRICAS TELECOM",
+        "style": {
+            "stroke": "#0070c0",
+            "fill": "#bfdbef",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "67cee427f086d96b",
+            "a53b0e3858dfcf8b",
+            "b9553d037c62a518",
+            "935c853c9bc1ec89",
+            "26e3553d5bb119c2",
+            "c0596eb71f220a49",
+            "bc83340a479d3743",
+            "011b9199c52e208f",
+            "91ac0873363b36da",
+            "976da05cef615327",
+            "485acb039c41c2f8",
+            "5f282db3d8000da2",
+            "cadece396c83e18b",
+            "61ab49d7a20438b3",
+            "286b4ac841dcf125",
+            "8c9526c489f34e2f"
+        ],
+        "x": 334,
+        "y": 779,
+        "w": 1192,
+        "h": 602
+    },
+    {
+        "id": "40ad5dd029266754",
+        "type": "group",
+        "z": "d57922aa9148f385",
+        "name": "DASHBOARD TELEMETRIA",
+        "style": {
+            "stroke": "#92d04f",
+            "fill": "#92d04f",
+            "label": true,
+            "color": "#000000",
+            "fill-opacity": "0.5"
+        },
+        "nodes": [
+            "044ebc51fa655e7a",
+            "2a6f1de04df04742",
+            "0ecb4f590835a4ed",
+            "e5470eb8b47002e0",
+            "51a9203cd40c5b5f",
+            "5ed731ff0d84668d",
+            "cfc979911406ba81",
+            "44bfb04ceaebc7bc",
+            "dee8b476c23f5e3f",
+            "8b39a39c905d1420",
+            "0d07d5ba1208397a",
+            "2d8fb7bcaf956e31",
+            "80977282634b62d8",
+            "d3c1fcedbcacc132",
+            "631deef1acbf19a2",
+            "25b940a8ccdd6dd0",
+            "d533a03ec2d4a7b3",
+            "626c45dd84cc4dc5",
+            "cec6bdfda77447c3",
+            "7b1867c1ce71a4a9"
+        ],
+        "x": 334,
+        "y": -1,
+        "w": 1012,
+        "h": 722
+    },
+    {
+        "id": "9356f47a0c78f647",
+        "type": "group",
+        "z": "2fb409831d11f58d",
+        "name": "CONTROL MANUAL",
+        "style": {
+            "stroke": "#6f2fa0",
+            "fill": "#dbcbe7",
+            "label": true,
+            "label-position": "n",
+            "color": "#000000"
+        },
+        "nodes": [
+            "94ed3f7d3f6a50e5",
+            "86702766c0b1193c",
+            "bd5e0c312ac5d6ae",
+            "9478786b2d7199d9",
+            "aa7a63a94703b7b1",
+            "d509d5da96a94ac6"
+        ],
+        "x": 14,
+        "y": 19,
+        "w": 532,
+        "h": 202
+    },
+    {
+        "id": "f591a44efbd34654",
+        "type": "group",
+        "z": "2fb409831d11f58d",
+        "name": "TECLADO VIRTUAL",
+        "style": {
+            "stroke": "#92d04f",
+            "fill": "#3f3f3f",
+            "label": true,
+            "label-position": "n",
+            "color": "#ffffff"
+        },
+        "nodes": [
+            "0d66f95ccf637df8",
+            "d681215840817b1b",
+            "01debd2eaf44f27a",
+            "366737dd2c29dfad",
+            "c2f170b5f33e55bc",
+            "0c0fb8015e6921b8",
+            "cc23dadd4946e43d",
+            "ab6f8f129ded6947",
+            "e589271b4822132d",
+            "a8efabefdc7e6067",
+            "fa333ed65c527a67",
+            "e092c9195b619244",
+            "c2025a05b5e94b42",
+            "ba1a9102d0771415",
+            "8524762edf2a3d2d",
+            "6e779d6478b7f1c2",
+            "7c9ba061ed501711",
+            "7f5e9bf03e169566",
+            "e47a57ac0d292cac",
+            "6484dbb8e0b50250",
+            "121650e7a2cbddc9",
+            "fabd4e61db38f308"
+        ],
+        "x": 14,
+        "y": 259,
+        "w": 1172,
+        "h": 422
+    },
+    {
+        "id": "ad7ffbefbe7eecea",
+        "type": "group",
+        "z": "2fb409831d11f58d",
+        "name": "BITÁCORA DE EVENTOS",
+        "style": {
+            "stroke": "#0070c0",
+            "fill": "#bfdbef",
+            "label": true,
+            "label-position": "n",
+            "color": "#000000"
+        },
+        "nodes": [
+            "f0bf8e55d7bd64ef",
+            "6d95e9715baf61dc",
+            "b8eafa8d69038a14",
+            "8fb83a02f5017dc0",
+            "330222949bb37e9a",
+            "dc8f1f2a964b24d0",
+            "7b5d7d1ac4692e22"
+        ],
+        "x": 14,
+        "y": 719,
+        "w": 852,
+        "h": 182
+    },
+    {
+        "id": "e99bd2c59e070eae",
+        "type": "group",
+        "z": "2fb409831d11f58d",
+        "name": "PRUEBA DE TELEMETRÍA MQTT (1000 MENSAJES)",
+        "style": {
+            "stroke": "#777777",
+            "fill": "#d1d1d1",
+            "fill-opacity": "0.75",
+            "label": true,
+            "label-position": "n",
+            "color": "#000000"
+        },
+        "nodes": [
+            "c30b1511b7ed59c5",
+            "c6de19e17fe71fb2",
+            "7e65ff81fd7f02f0",
+            "073bc8b3cbd99941"
+        ],
+        "x": 14,
+        "y": 939,
+        "w": 932,
+        "h": 162
+    },
+    {
+        "id": "aebc31a75b35fb53",
+        "type": "group",
+        "z": "2fb409831d11f58d",
+        "name": "LIMPIEZA DE CONTADORES",
+        "style": {
+            "label": true,
+            "label-position": "n",
+            "color": "#000000",
+            "fill": "#ffffff"
+        },
+        "nodes": [
+            "27d29a5aee03c56c",
+            "d1f3adbc7cbd9a55",
+            "c6c3fdb94f255c9e"
+        ],
+        "x": 934,
+        "y": 719,
+        "w": 432,
+        "h": 142
+    },
+    {
+        "id": "cd8f7fdfbfe441bb",
+        "type": "mqtt-broker",
+        "name": "UV-C Cluster",
+        "broker": "a6d2614b7fc249b4a46aa71f4a7268af.s1.eu.hivemq.cloud",
+        "port": "8883",
+        "tls": "",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": true,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "30c8c1e4f81aa565",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-custom",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0044cc",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#0962d7",
+                "baseFont": "Arial,Arial,Helvetica,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Cabina UV-C",
+                "default": "#4B7930",
+                "baseColor": "#0ea5ff",
+                "baseFont": "Arial,Arial,Helvetica,sans-serif",
+                "reset": false
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#4B7930",
+                    "value": "#0ea5ff",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0ea5ff",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#0b0f14",
+                    "edited": true
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#5ac2ff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#161b22",
+                    "edited": true
+                },
+                "widget-textColor": {
+                    "value": "#e5e7eb",
+                    "edited": true
+                },
+                "widget-backgroundColor": {
+                    "value": "#0ea5ff",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#161b22",
+                    "edited": true
+                },
+                "base-font": {
+                    "value": "Arial,Arial,Helvetica,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Cabina UV-C",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "94ed7cd42c6b997d",
+        "type": "ui_tab",
+        "name": "DASHBOARD TELEMETRIA",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "832c72a15607c41f",
+        "type": "ui_group",
+        "name": "Estado General",
+        "tab": "94ed7cd42c6b997d",
+        "order": 3,
+        "disp": true,
+        "width": "5",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "026bc1d6208521ab",
+        "type": "ui_group",
+        "name": "Seguridad UV-C",
+        "tab": "94ed7cd42c6b997d",
+        "order": 4,
+        "disp": true,
+        "width": "4",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "c0ac732b72f60a6c",
+        "type": "ui_group",
+        "name": "Telemetría",
+        "tab": "94ed7cd42c6b997d",
+        "order": 6,
+        "disp": true,
+        "width": "16",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "799a2ffffe34f4c1",
+        "type": "ui_group",
+        "name": "Eventos",
+        "tab": "94ed7cd42c6b997d",
+        "order": 5,
+        "disp": true,
+        "width": "16",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "dd930b46adb958bf",
+        "type": "ui_group",
+        "name": "Control Manual",
+        "tab": "94ed7cd42c6b997d",
+        "order": 2,
+        "disp": true,
+        "width": "4",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "9f349ae947ee5e60",
+        "type": "ui_spacer",
+        "z": "d57922aa9148f385",
+        "name": "spacer",
+        "group": "",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "615da4738152941b",
+        "type": "ui_group",
+        "name": "Teclado Virtual",
+        "tab": "94ed7cd42c6b997d",
+        "order": 1,
+        "disp": true,
+        "width": "4",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "df74f55afd39c151",
+        "type": "ui_tab",
+        "name": "MÉTRICAS TELECOM",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "b71d2063e14052c7",
+        "type": "ui_group",
+        "name": "Indicadores",
+        "tab": "df74f55afd39c151",
+        "order": 1,
+        "disp": true,
+        "width": "28",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "822b1a9bdb5fad35",
+        "type": "ui_group",
+        "name": "Señal WiFi",
+        "tab": "df74f55afd39c151",
+        "order": 2,
+        "disp": true,
+        "width": "12",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "383dc9f2cd830667",
+        "type": "ui_group",
+        "name": "Latencia MQTT",
+        "tab": "df74f55afd39c151",
+        "order": 7,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "229a2e6f33997329",
+        "type": "ui_group",
+        "name": "Reconexión",
+        "tab": "df74f55afd39c151",
+        "order": 4,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "ee12068e656b2dc3",
+        "type": "ui_group",
+        "name": "Bitácora de eventos",
+        "tab": "df74f55afd39c151",
+        "order": 6,
+        "disp": true,
+        "width": "32",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "858b02ff11bdaed9",
+        "type": "ui_group",
+        "name": "Prueba MQTT",
+        "tab": "df74f55afd39c151",
+        "order": 5,
+        "disp": true,
+        "width": "9",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "0c697a85525e307f",
+        "type": "ui_group",
+        "name": "Resumen RSSI",
+        "tab": "df74f55afd39c151",
+        "order": 3,
+        "disp": true,
+        "width": "4",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "4fbef6a7450eeedf",
+        "type": "mqtt in",
+        "z": "d57922aa9148f385",
+        "name": "MQTT Telemetría",
+        "topic": "/cabina_uvc/tele",
+        "qos": "1",
+        "datatype": "auto-detect",
+        "broker": "cd8f7fdfbfe441bb",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 140,
+        "y": 700,
+        "wires": [
+            [
+                "044ebc51fa655e7a",
+                "c0596eb71f220a49"
+            ]
+        ]
+    },
+    {
+        "id": "044ebc51fa655e7a",
+        "type": "json",
+        "z": "d57922aa9148f385",
+        "g": "40ad5dd029266754",
+        "name": "JSON Telemetría",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 450,
+        "y": 440,
+        "wires": [
+            [
+                "2a6f1de04df04742",
+                "25b940a8ccdd6dd0"
+            ]
+        ]
+    },
+    {
+        "id": "2a6f1de04df04742",
+        "type": "function",
+        "z": "d57922aa9148f385",
+        "g": "40ad5dd029266754",
+        "name": "Dashboard PRO",
+        "func": "let raw = msg.payload;\nlet d = raw;\nlet jsonError = false;\n\n// Si viene como texto JSON, convertirlo a objeto\nif (typeof d === \"string\") {\n    try {\n        d = JSON.parse(d);\n    } catch (e) {\n        jsonError = true;\n        d = {};\n    }\n}\n\nlet estado = d.state || \"IDLE\";\nlet puerta = d.door || \"CLOSED\";\nlet relay = d.relay_uvc || \"OFF\";\nlet restante = Number(d.remaining_s);\nlet ciclo = Number(d.cycle_s);\nlet rssi = Number(d.rssi);\nlet latencia = Number(d.latency_ms);\nlet comando = d.cmd || d.last_cmd || context.get(\"ultimoComando\") || \"NONE\";\nlet msgId = d.msg_id || Date.now();\n\nlet wifiStatus = d.wifi_status || \"UNKNOWN\";\nlet mqttStatus = d.mqtt_status || \"UNKNOWN\";\nlet faultCode = d.fault_code || \"NONE\";\nlet faultDetail = d.fault_detail || \"Sistema operativo\";\nlet cycleCountEsp = Number(d.cycle_count);\n\nif (isNaN(restante)) restante = 0;\nif (isNaN(ciclo)) ciclo = 0;\nif (isNaN(rssi)) rssi = -100;\nif (isNaN(latencia)) latencia = 0;\n\nlet ciclos = context.get(\"ciclos\") || 0;\nlet estadoAnterior = context.get(\"estadoAnterior\") || \"IDLE\";\n\n// Si el ESP32 manda contador oficial, usar ese.\n// Si no lo manda, mantener contador por transicion RUNNING -> DONE/IDLE.\nif (!isNaN(cycleCountEsp)) {\n    ciclos = cycleCountEsp;\n} else if (estadoAnterior === \"RUNNING\" && (estado === \"DONE\" || estado === \"IDLE\")) {\n    ciclos++;\n}\n\ncontext.set(\"ciclos\", ciclos);\ncontext.set(\"estadoAnterior\", estado);\ncontext.set(\"ultimoComando\", comando);\n\nlet mqtt = \"ONLINE\";\nlet seguridad = \"SEGURO\";\nlet alerta = \"SIN ALERTAS\";\n\nif (jsonError) {\n    seguridad = \"ERROR\";\n    alerta = \"ERROR JSON\";\n} else if (faultCode && faultCode !== \"NONE\") {\n    seguridad = \"ALERTA\";\n    alerta = faultCode + \" | \" + faultDetail;\n} else if (puerta === \"OPEN\" && relay === \"ON\") {\n    seguridad = \"CRITICO\";\n    alerta = \"PUERTA ABIERTA CON UV-C ACTIVO\";\n} else if (puerta === \"OPEN\") {\n    seguridad = \"PUERTA ABIERTA\";\n    alerta = \"PUERTA ABIERTA\";\n} else if (relay === \"ON\") {\n    seguridad = \"UV-C ACTIVO\";\n}else if (estado === \"PAUSED\") {\n    seguridad = \"PAUSADO\";\n    alerta = \"Ciclo pausado: presione A para continuar o # para limpiar\";\n}\nif (estado === \"ALARM\") {\n    seguridad = \"CRITICO\";\n}if (estado === \"ERROR\" || estado === \"ERROR_WIFI\" || estado === \"ERROR_MQTT\") {\n    seguridad = \"ERROR\";\n}\n\nlet evento = new Date().toLocaleString() +\n    \" | ID: \" + msgId +\n    \" | Estado: \" + estado +\n    \" | Puerta: \" + puerta +\n    \" | UV-C: \" + relay +\n    \" | Ciclo: \" + ciclo + \" s\" +\n    \" | Restante: \" + restante + \" s\" +\n    \" | RSSI: \" + rssi + \" dBm\" +\n    \" | WiFi: \" + wifiStatus +\n    \" | MQTT ESP32: \" + mqttStatus +\n    \" | CMD: \" + comando +\n    \" | Falla: \" + faultCode +\n    \" | Alerta: \" + alerta;\n\nreturn [\n    { topic: \"estado\", payload: estado },\n    { topic: \"puerta\", payload: puerta },\n    { topic: \"relay_uvc\", payload: relay },\n    { topic: \"restante_s\", payload: restante },\n    { topic: \"rssi\", payload: rssi },\n    { topic: \"seguridad\", payload: seguridad },\n    { topic: \"ciclo_s\", payload: ciclo },\n    { topic: \"evento\", payload: evento },\n    { topic: \"mqtt\", payload: mqtt },\n    { topic: \"ciclos\", payload: ciclos },\n    { topic: \"ultimo_comando\", payload: comando },\n    { topic: \"alerta\", payload: alerta },\n    { topic: \"latencia_ms\", payload: latencia },\n    { topic: \"wifi_status\", payload: wifiStatus },\n    { topic: \"fault_code\", payload: faultCode },\n    { topic: \"fault_detail\", payload: faultDetail }\n];",
+        "outputs": 16,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 740,
+        "y": 320,
+        "wires": [
+            [
+                "0ecb4f590835a4ed"
+            ],
+            [
+                "e5470eb8b47002e0"
+            ],
+            [
+                "51a9203cd40c5b5f"
+            ],
+            [
+                "8b39a39c905d1420"
+            ],
+            [
+                "5ed731ff0d84668d",
+                "631deef1acbf19a2"
+            ],
+            [
+                "cfc979911406ba81"
+            ],
+            [
+                "44bfb04ceaebc7bc"
+            ],
+            [
+                "dee8b476c23f5e3f"
+            ],
+            [
+                "d533a03ec2d4a7b3"
+            ],
+            [
+                "0d07d5ba1208397a"
+            ],
+            [
+                "d3c1fcedbcacc132"
+            ],
+            [
+                "2d8fb7bcaf956e31"
+            ],
+            [
+                "80977282634b62d8"
+            ],
+            [
+                "626c45dd84cc4dc5"
+            ],
+            [
+                "cec6bdfda77447c3"
+            ],
+            [
+                "7b1867c1ce71a4a9"
+            ]
+        ]
+    },
+    {
+        "id": "0ecb4f590835a4ed",
+        "type": "ui_text",
+        "z": "d57922aa9148f385",
+        "g": "40ad5dd029266754",
+        "group": "832c72a15607c41f",
+        "order": 2,
+        "width": "5",
+        "height": "1",
+        "name": "",
+        "label": "Estado operativo del sistema",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1160,
+        "y": 40,
+        "wires": [],
+        "icon": "font-awesome/fa-circle"
+    },
+    {
+        "id": "e5470eb8b47002e0",
+        "type": "ui_text",
+        "z": "d57922aa9148f385",
+        "g": "40ad5dd029266754",
+        "group": "026bc1d6208521ab",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "Estado Puerta",
+        "label": "Estado Puerta",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1120,
+        "y": 80,
+        "wires": [],
+        "icon": "font-awesome/fa-sign-in"
+    },
+    {
+        "id": "51a9203cd40c5b5f",
+        "type": "ui_text",
+        "z": "d57922aa9148f385",
+        "g": "40ad5dd029266754",
+        "group": "026bc1d6208521ab",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "Relay UV-C",
+        "label": "Lámparas UV-C",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1110,
+        "y": 120,
+        "wires": [],
+        "icon": "node-red/light.svg"
+    },
+    {
+        "id": "5ed731ff0d84668d",
+        "type": "ui_gauge",
+        "z": "d57922aa9148f385",
+        "g": "40ad5dd029266754",
+        "name": "Calidad de señal WiFi (RSSI)",
+        "group": "c0ac732b72f60a6c",
+        "order": 3,
+        "width": "8",
+        "height": "4",
+        "gtype": "gage",
+        "title": "Calidad de señal WiFi (RSSI)",
+        "label": "dBm",
+        "format": "{{value}}",
+        "min": "-100",
+        "max": "-30",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 1160,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "cfc979911406ba81",
+        "type": "ui_text",
+        "z": "d57922aa9148f385",
+        "g": "40ad5dd029266754",
+        "group": "026bc1d6208521ab",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "Seguridad",
+        "label": "Condición Seguridad",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1110,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "44bfb04ceaebc7bc",
+        "type": "ui_text",
+        "z": "d57922aa9148f385",
+        "g": "40ad5dd029266754",
+        "group": "832c72a15607c41f",
+        "order": 4,
+        "width": "5",
+        "height": "1",
+        "name": "Duración configurada del ciclo",
+        "label": "Duración configurada del ciclo",
+        "format": "{{msg.payload}} s",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1170,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "dee8b476c23f5e3f",
+        "type": "ui_text",
+        "z": "d57922aa9148f385",
+        "g": "40ad5dd029266754",
+        "group": "799a2ffffe34f4c1",
+        "order": 2,
+        "width": "9",
+        "height": "2",
+        "name": "Último Evento",
+        "label": "Último evento registrado",
+        "format": "<div style=\"white-space: normal; word-break: break-word; line-height: 1.35;\"> {{msg.payload}} </div>",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1120,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "8b39a39c905d1420",
+        "type": "ui_gauge",
+        "z": "d57922aa9148f385",
+        "g": "40ad5dd029266754",
+        "name": "Tiempo restante del proceso UV-C",
+        "group": "c0ac732b72f60a6c",
+        "order": 4,
+        "width": "8",
+        "height": "4",
+        "gtype": "gage",
+        "title": "Tiempo restante del proceso UV-C",
+        "label": "s",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "10000",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 1180,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "0d07d5ba1208397a",
+        "type": "ui_text",
+        "z": "d57922aa9148f385",
+        "g": "40ad5dd029266754",
+        "group": "832c72a15607c41f",
+        "order": 3,
+        "width": "5",
+        "height": "1",
+        "name": "Ciclos ejecutados",
+        "label": "Ciclos ejecutados",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1130,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "2d8fb7bcaf956e31",
+        "type": "ui_text",
+        "z": "d57922aa9148f385",
+        "g": "40ad5dd029266754",
+        "group": "026bc1d6208521ab",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "Alerta crítica",
+        "label": "Alerta crítica",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1110,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "80977282634b62d8",
+        "type": "ui_chart",
+        "z": "d57922aa9148f385",
+        "g": "40ad5dd029266754",
+        "name": "Latencia MQTT",
+        "group": "c0ac732b72f60a6c",
+        "order": 1,
+        "width": "8",
+        "height": "4",
+        "label": "Latencia MQTT",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "1000",
+        "removeOlder": "10",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1120,
+        "y": 560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d3c1fcedbcacc132",
+        "type": "ui_text",
+        "z": "d57922aa9148f385",
+        "g": "40ad5dd029266754",
+        "group": "799a2ffffe34f4c1",
+        "order": 2,
+        "width": "4",
+        "height": "2",
+        "name": "Último comando",
+        "label": "Último comando",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1120,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "631deef1acbf19a2",
+        "type": "ui_chart",
+        "z": "d57922aa9148f385",
+        "g": "40ad5dd029266754",
+        "name": "Historial RSSI",
+        "group": "c0ac732b72f60a6c",
+        "order": 2,
+        "width": "8",
+        "height": "4",
+        "label": "Historial RSSI",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "-100",
+        "ymax": "-30",
+        "removeOlder": "10",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1120,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "25b940a8ccdd6dd0",
+        "type": "trigger",
+        "z": "d57922aa9148f385",
+        "g": "40ad5dd029266754",
+        "name": "Trigger MQTT Status",
+        "op1": "ONLINE",
+        "op2": "OFFLINE",
+        "op1type": "str",
+        "op2type": "str",
+        "duration": "10",
+        "extend": true,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 760,
+        "y": 600,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d533a03ec2d4a7b3",
+        "type": "ui_text",
+        "z": "d57922aa9148f385",
+        "g": "40ad5dd029266754",
+        "group": "832c72a15607c41f",
+        "order": 1,
+        "width": "5",
+        "height": "1",
+        "name": "Estado Real MQTT",
+        "label": "Estado Real MQTT",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1130,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "626c45dd84cc4dc5",
+        "type": "ui_text",
+        "z": "d57922aa9148f385",
+        "g": "40ad5dd029266754",
+        "group": "832c72a15607c41f",
+        "order": 4,
+        "width": "5",
+        "height": "1",
+        "name": "",
+        "label": "WiFi ESP32",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1110,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "cec6bdfda77447c3",
+        "type": "ui_text",
+        "z": "d57922aa9148f385",
+        "g": "40ad5dd029266754",
+        "group": "026bc1d6208521ab",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Falla",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1090,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "7b1867c1ce71a4a9",
+        "type": "ui_text",
+        "z": "d57922aa9148f385",
+        "g": "40ad5dd029266754",
+        "group": "799a2ffffe34f4c1",
+        "order": 4,
+        "width": "2",
+        "height": "2",
+        "name": "",
+        "label": "Detalle",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1100,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "67cee427f086d96b",
+        "type": "ui_table",
+        "z": "d57922aa9148f385",
+        "g": "7249395a009e3ff5",
+        "group": "ee12068e656b2dc3",
+        "name": "Tabla de eventos",
+        "order": 0,
+        "width": "32",
+        "height": "8",
+        "columns": [],
+        "outputs": 0,
+        "cts": false,
+        "x": 1410,
+        "y": 1180,
+        "wires": []
+    },
+    {
+        "id": "a53b0e3858dfcf8b",
+        "type": "function",
+        "z": "d57922aa9148f385",
+        "g": "7249395a009e3ff5",
+        "name": "FORMATEAR TABLA DE EVENTOS",
+        "func": "let events = msg.payload || [];\n\nmsg.payload = events.map(e => {\n    return {\n        fecha: e.fecha_pc,\n        id: e.msg_id,\n        estado: e.state,\n        puerta: e.door,\n        uv: e.relay_uvc,\n        rssi: e.rssi,\n        wifi: e.wifi_status,\n        mqtt: e.mqtt_status,\n        falla: e.fault_code,\n        cmd: e.last_cmd,\n        origen: e.source,\n        pdr: e.pdr\n    };\n});\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1150,
+        "y": 1180,
+        "wires": [
+            [
+                "67cee427f086d96b"
+            ]
+        ]
+    },
+    {
+        "id": "b9553d037c62a518",
+        "type": "ui_template",
+        "z": "d57922aa9148f385",
+        "g": "7249395a009e3ff5",
+        "group": "b71d2063e14052c7",
+        "name": "CARD PDR",
+        "order": 1,
+        "width": "4",
+        "height": "2",
+        "format": "<div class=\"telecom-card\" ng-class=\"msg.payload.estado\">\n    <div class=\"telecom-title\">{{msg.payload.titulo}}</div>\n    <div class=\"telecom-value\">{{msg.payload.valor}}</div>\n    <div class=\"telecom-subtitle\">Packet Delivery Ratio</div>\n</div>\n\n<style>\n    .telecom-card {\n        padding: 14px;\n        border-radius: 6px;\n        background: #111827;\n        border: 1px solid #334155;\n        color: #e5e7eb;\n        min-height: 82px;\n    }\n\n    .telecom-title {\n        color: #94a3b8;\n        font-size: 13px;\n        font-weight: 600;\n        text-transform: uppercase;\n    }\n\n    .telecom-value {\n        font-size: 28px;\n        font-weight: 800;\n        margin-top: 6px;\n    }\n\n    .telecom-subtitle {\n        font-size: 12px;\n        color: #94a3b8;\n        margin-top: 2px;\n    }\n\n    .telecom-card.ok {\n        border-color: #22c55e;\n        box-shadow: 0 0 16px rgba(34, 197, 94, 0.20);\n    }\n\n    .telecom-card.ok .telecom-value {\n        color: #22c55e;\n    }\n\n    .telecom-card.warn {\n        border-color: #facc15;\n        box-shadow: 0 0 16px rgba(250, 204, 21, 0.18);\n    }\n\n    .telecom-card.warn .telecom-value {\n        color: #facc15;\n    }\n\n    .telecom-card.bad {\n        border-color: #ef4444;\n        box-shadow: 0 0 16px rgba(239, 68, 68, 0.20);\n    }\n\n    .telecom-card.bad .telecom-value {\n        color: #ef4444;\n    }\n</style>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1070,
+        "y": 820,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "935c853c9bc1ec89",
+        "type": "ui_template",
+        "z": "d57922aa9148f385",
+        "g": "7249395a009e3ff5",
+        "group": "b71d2063e14052c7",
+        "name": "CARD CALIDAD RSSI",
+        "order": 5,
+        "width": "4",
+        "height": "2",
+        "format": "<div class=\"telecom-card\" ng-class=\"msg.payload.estado\">\n    <div class=\"telecom-title\">{{msg.payload.titulo}}</div>\n    <div class=\"telecom-value\">{{msg.payload.valor}}</div>\n    <div class=\"telecom-subtitle\">Umbral crítico: menor a -80 dBm</div>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1100,
+        "y": 1260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "26e3553d5bb119c2",
+        "type": "ui_template",
+        "z": "d57922aa9148f385",
+        "g": "7249395a009e3ff5",
+        "group": "229a2e6f33997329",
+        "name": "CARD RECONEXION MQTT",
+        "order": 5,
+        "width": "6",
+        "height": "2",
+        "format": "<div class=\"telecom-card\" ng-class=\"msg.payload.estado\">\n    <div class=\"telecom-title\">{{msg.payload.titulo}}</div>\n    <div class=\"telecom-value\">{{msg.payload.valor}}</div>\n    <div class=\"telecom-subtitle\">Promedio de recuperación</div>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1120,
+        "y": 1220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c0596eb71f220a49",
+        "type": "function",
+        "z": "d57922aa9148f385",
+        "g": "7249395a009e3ff5",
+        "name": "CALCULAR MÉTRICAS TELECOM",
+        "func": "let d = msg.payload;\n\nif (typeof d === \"string\") {\n    try {\n        d = JSON.parse(d);\n    } catch (e) {\n        return null;\n    }\n}\n\nlet now = Date.now();\n\nlet msgId = Number(d.msg_id);\nlet rssi = Number(d.rssi);\nlet wifi = d.wifi_status || \"UNKNOWN\";\nlet mqtt = d.mqtt_status || \"UNKNOWN\";\n\nlet stats = global.get(\"telecom_stats\") || {\n    first_id: null,\n    last_id: null,\n    received: 0,\n    lost: 0,\n    duplicates: 0,\n    seen: {},\n    rssi_sum: 0,\n    rssi_count: 0,\n    rssi_min: null,\n    rssi_max: null,\n    wifi_down_since: null,\n    mqtt_down_since: null,\n    wifi_reconnect_last: 0,\n    mqtt_reconnect_last: 0,\n    wifi_reconnect_total: 0,\n    mqtt_reconnect_total: 0,\n    wifi_reconnect_count: 0,\n    mqtt_reconnect_count: 0,\n    events: []\n};\n\n// =====================\n// PDR por msg_id\n// =====================\n\nif (!isNaN(msgId)) {\n    if (stats.first_id === null) {\n        stats.first_id = msgId;\n    }\n\n    if (stats.seen[msgId]) {\n        stats.duplicates++;\n    } else {\n        stats.seen[msgId] = true;\n        stats.received++;\n\n        if (stats.last_id !== null && msgId > stats.last_id + 1) {\n            stats.lost += msgId - stats.last_id - 1;\n        }\n\n        if (stats.last_id === null || msgId > stats.last_id) {\n            stats.last_id = msgId;\n        }\n    }\n}\n\nlet expected = stats.received + stats.lost;\nlet pdr = expected > 0 ? (stats.received / expected) * 100 : 100;\n\n// =====================\n// RSSI\n// =====================\n\nif (!isNaN(rssi) && rssi !== 0) {\n    stats.rssi_sum += rssi;\n    stats.rssi_count++;\n\n    if (stats.rssi_min === null || rssi < stats.rssi_min) {\n        stats.rssi_min = rssi;\n    }\n\n    if (stats.rssi_max === null || rssi > stats.rssi_max) {\n        stats.rssi_max = rssi;\n    }\n}\n\nlet rssiAvg = stats.rssi_count > 0 ? stats.rssi_sum / stats.rssi_count : 0;\n\n// =====================\n// Reconexión WiFi\n// =====================\n\nif (wifi !== \"CONNECTED\" && stats.wifi_down_since === null) {\n    stats.wifi_down_since = now;\n}\n\nif (wifi === \"CONNECTED\" && stats.wifi_down_since !== null) {\n    let reconnection = now - stats.wifi_down_since;\n\n    stats.wifi_reconnect_last = reconnection;\n    stats.wifi_reconnect_total += reconnection;\n    stats.wifi_reconnect_count++;\n\n    stats.wifi_down_since = null;\n}\n\n// =====================\n// Reconexión MQTT\n// =====================\n\nif (mqtt !== \"CONNECTED\" && stats.mqtt_down_since === null) {\n    stats.mqtt_down_since = now;\n}\n\nif (mqtt === \"CONNECTED\" && stats.mqtt_down_since !== null) {\n    let reconnection = now - stats.mqtt_down_since;\n\n    stats.mqtt_reconnect_last = reconnection;\n    stats.mqtt_reconnect_total += reconnection;\n    stats.mqtt_reconnect_count++;\n\n    stats.mqtt_down_since = null;\n}\n\nlet wifiReconnectAvg = stats.wifi_reconnect_count > 0\n    ? stats.wifi_reconnect_total / stats.wifi_reconnect_count\n    : 0;\n\nlet mqttReconnectAvg = stats.mqtt_reconnect_count > 0\n    ? stats.mqtt_reconnect_total / stats.mqtt_reconnect_count\n    : 0;\n\n// =====================\n// Evento para bitácora\n// =====================\n\nlet event = {\n    fecha_pc: new Date(now).toLocaleString(),\n    device_id: d.device_id || \"\",\n    fw_version: d.fw_version || \"\",\n    msg_id: d.msg_id || \"\",\n    state: d.state || \"\",\n    door: d.door || \"\",\n    relay_uvc: d.relay_uvc || \"\",\n    cycle_s: d.cycle_s || 0,\n    remaining_s: d.remaining_s || 0,\n    confirmed_s: d.confirmed_s || 0,\n    cycle_count: d.cycle_count || 0,\n    rssi: d.rssi || 0,\n    wifi_status: d.wifi_status || \"\",\n    mqtt_status: d.mqtt_status || \"\",\n    fault_code: d.fault_code || \"\",\n    fault_detail: d.fault_detail || \"\",\n    last_cmd: d.last_cmd || \"\",\n    source: d.source || \"\",\n    free_heap: d.free_heap || 0,\n    esp_ts_ms: d.ts || 0,\n    pdr: Number(pdr.toFixed(2))\n};\n\n//stats.events.unshift(event);\n//stats.events = stats.events.slice(0, 1000);\nlet eventKey = [\n    d.state,\n    d.door,\n    d.relay_uvc,\n    d.fault_code,\n    d.last_cmd,\n    d.source\n].join(\"|\");\n\nlet lastEventKey = stats.last_event_key || \"\";\n\nif (eventKey !== lastEventKey) {\n    stats.events.unshift(event);\n    stats.events = stats.events.slice(0, 1000);\n    stats.last_event_key = eventKey;\n}\n\n\n\n//////\n\nglobal.set(\"telecom_stats\", stats);\n\n//////////////////////////\n///PRUEBA 1000 MENSAJES///\n//////////////////////////\n\nlet test = global.get(\"test_1000\");\n\nif (test && test.active) {\n    test.current = stats.received;\n    test.progress = (stats.received / test.target) * 100;\n\n    if (stats.received >= test.target) {\n        test.active = false;\n        test.end_time = Date.now();\n        test.duration_s = (test.end_time - test.start_time) / 1000;\n    }\n\n    global.set(\"test_1000\", test);\n}\n\n//////////////////////////\n///CALIDAD DE LA SEÑAL///\n//////////////////////////\n\nlet calidadRSSI = \"CRÍTICA\";\n\nif (rssiAvg >= -60) {\n    calidadRSSI = \"BUENA\";\n} else if (rssiAvg >= -70) {\n    calidadRSSI = \"ACEPTABLE\";\n} else if (rssiAvg >= -80) {\n    calidadRSSI = \"DÉBIL\";\n} else {\n    calidadRSSI = \"CRÍTICA\";\n}\n\nlet rssiEstado =\n    rssi >= -70 ? \"ok\" :\n    rssi >= -80 ? \"warn\" :\n    \"bad\";\n\nlet estadoEnlace = \"OK\";\n\nif (wifi !== \"CONNECTED\" || mqtt !== \"CONNECTED\") {\n    estadoEnlace = \"FALLA\";\n} else if (rssiAvg < -80) {\n    estadoEnlace = \"DÉBIL\";\n}\n\n\nreturn [\n    {\n        payload: {\n            titulo: \"PDR\",\n            valor: pdr.toFixed(2) + \" %\",\n            subtitulo: \"Packet Delivery Ratio\",\n            estado: pdr >= 98 ? \"ok\" : pdr >= 95 ? \"warn\" : \"bad\"\n        }\n    },\n    {\n        payload: {\n            titulo: \"Recibidos\",\n            valor: stats.received,\n            subtitulo: \"Mensajes MQTT\",\n            estado: \"ok\"\n        }\n    },\n    {\n        payload: {\n            titulo: \"Perdidos\",\n            valor: stats.lost,\n            subtitulo: \"Saltos de msg_id\",\n            estado: stats.lost === 0 ? \"ok\" : stats.lost <= 5 ? \"warn\" : \"bad\"\n        }\n    },\n    {\n        payload: {\n            titulo: \"Duplicados\",\n            valor: stats.duplicates,\n            subtitulo: \"Mensajes repetidos\",\n            estado: stats.duplicates === 0 ? \"ok\" : \"warn\"\n        }\n    },\n    { payload: rssi },\n    {\n        payload: {\n            titulo: \"RSSI Prom.\",\n            valor: rssiAvg.toFixed(1) + \" dBm\",\n            subtitulo: \"Promedio señal\",\n            estado: rssiAvg >= -70 ? \"ok\" : rssiAvg >= -80 ? \"warn\" : \"bad\"\n        }\n    },\n    {\n        payload: {\n            titulo: \"RSSI Mín.\",\n            valor: stats.rssi_min + \" dBm\",\n            subtitulo: \"Peor lectura\",\n            estado: stats.rssi_min >= -70 ? \"ok\" : stats.rssi_min >= -80 ? \"warn\" : \"bad\"\n        }\n    },\n    {\n        payload: {\n            titulo: \"RSSI Máx.\",\n            valor: stats.rssi_max + \" dBm\",\n            subtitulo: \"Mejor lectura\",\n            estado: stats.rssi_max >= -70 ? \"ok\" : stats.rssi_max >= -80 ? \"warn\" : \"bad\"\n        }\n    },\n    {\n        payload: {\n            titulo: \"WiFi\",\n            valor: (wifiReconnectAvg / 1000).toFixed(2) + \" s\",\n            subtitulo: \"Reconexión promedio\",\n            estado: wifiReconnectAvg <= 10000 ? \"ok\" : wifiReconnectAvg <= 30000 ? \"warn\" : \"bad\"\n        }\n    },\n    { payload: stats.events },\n    {\n        payload: {\n            titulo: \"MQTT\",\n            valor: (mqttReconnectAvg / 1000).toFixed(2) + \" s\",\n            subtitulo: \"Reconexión promedio\",\n            estado: mqttReconnectAvg <= 5000 ? \"ok\" : mqttReconnectAvg <= 15000 ? \"warn\" : \"bad\"\n        }\n    },\n    {\n        payload: {\n            titulo: \"Calidad\",\n            valor: calidadRSSI,\n            subtitulo: \"Umbral crítico -80 dBm\",\n            estado: calidadRSSI === \"BUENA\" ? \"ok\" : calidadRSSI === \"ACEPTABLE\" || calidadRSSI === \"DÉBIL\" ? \"warn\" : \"bad\"\n        }\n    },\n    {\n        payload: {\n            titulo: \"RSSI Actual\",\n            valor: rssi + \" dBm\",\n            subtitulo: \"Última telemetría\",\n            estado: rssiEstado\n        }\n    },\n    {\n        payload: {\n            titulo: \"Enlace\",\n            valor: estadoEnlace,\n            subtitulo: \"WiFi + MQTT\",\n            estado: estadoEnlace === \"OK\" ? \"ok\" : estadoEnlace === \"DÉBIL\" ? \"warn\" : \"bad\"\n        }\n    }\n];",
+        "outputs": 14,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 1060,
+        "wires": [
+            [
+                "b9553d037c62a518"
+            ],
+            [
+                "011b9199c52e208f"
+            ],
+            [
+                "91ac0873363b36da"
+            ],
+            [
+                "976da05cef615327"
+            ],
+            [
+                "61ab49d7a20438b3"
+            ],
+            [
+                "485acb039c41c2f8"
+            ],
+            [
+                "5f282db3d8000da2"
+            ],
+            [
+                "cadece396c83e18b"
+            ],
+            [
+                "bc83340a479d3743"
+            ],
+            [
+                "a53b0e3858dfcf8b"
+            ],
+            [
+                "26e3553d5bb119c2"
+            ],
+            [
+                "935c853c9bc1ec89"
+            ],
+            [
+                "286b4ac841dcf125"
+            ],
+            [
+                "8c9526c489f34e2f"
+            ]
+        ]
+    },
+    {
+        "id": "bc83340a479d3743",
+        "type": "ui_template",
+        "z": "d57922aa9148f385",
+        "g": "7249395a009e3ff5",
+        "group": "229a2e6f33997329",
+        "name": "CARD RECONEXIÓN WIFI",
+        "order": 5,
+        "width": "6",
+        "height": "2",
+        "format": "<div class=\"telecom-card\" ng-class=\"msg.payload.estado\">\n    <div class=\"telecom-title\">{{msg.payload.titulo}}</div>\n    <div class=\"telecom-value\">{{msg.payload.valor}}</div>\n    <div class=\"telecom-subtitle\">Promedio de recuperación</div>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1120,
+        "y": 1140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "011b9199c52e208f",
+        "type": "ui_template",
+        "z": "d57922aa9148f385",
+        "g": "7249395a009e3ff5",
+        "group": "b71d2063e14052c7",
+        "name": "CARD RECIBIDOS",
+        "order": 1,
+        "width": "4",
+        "height": "2",
+        "format": "<div class=\"telecom-card\" ng-class=\"msg.payload.estado\">\n    <div class=\"telecom-title\">{{msg.payload.titulo}}</div>\n    <div class=\"telecom-value\">{{msg.payload.valor}}</div>\n    <div class=\"telecom-subtitle\">{{msg.payload.subtitulo}}</div>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1090,
+        "y": 860,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "91ac0873363b36da",
+        "type": "ui_template",
+        "z": "d57922aa9148f385",
+        "g": "7249395a009e3ff5",
+        "group": "b71d2063e14052c7",
+        "name": "CARD PERDIDOS",
+        "order": 1,
+        "width": "4",
+        "height": "3",
+        "format": "<div class=\"telecom-card\" ng-class=\"msg.payload.estado\">\n    <div class=\"telecom-title\">{{msg.payload.titulo}}</div>\n    <div class=\"telecom-value\">{{msg.payload.valor}}</div>\n    <div class=\"telecom-subtitle\">{{msg.payload.subtitulo}}</div>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1090,
+        "y": 900,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "976da05cef615327",
+        "type": "ui_template",
+        "z": "d57922aa9148f385",
+        "g": "7249395a009e3ff5",
+        "group": "b71d2063e14052c7",
+        "name": "CARD DUPLICADOS",
+        "order": 1,
+        "width": "4",
+        "height": "2",
+        "format": "<div class=\"telecom-card\" ng-class=\"msg.payload.estado\">\n    <div class=\"telecom-title\">{{msg.payload.titulo}}</div>\n    <div class=\"telecom-value\">{{msg.payload.valor}}</div>\n    <div class=\"telecom-subtitle\">{{msg.payload.subtitulo}}</div>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1100,
+        "y": 940,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "485acb039c41c2f8",
+        "type": "ui_template",
+        "z": "d57922aa9148f385",
+        "g": "7249395a009e3ff5",
+        "group": "0c697a85525e307f",
+        "name": "CARD PROMEDIO",
+        "order": 1,
+        "width": "4",
+        "height": "3",
+        "format": "<div class=\"telecom-card\" ng-class=\"msg.payload.estado\">\n    <div class=\"telecom-title\">{{msg.payload.titulo}}</div>\n    <div class=\"telecom-value\">{{msg.payload.valor}}</div>\n    <div class=\"telecom-subtitle\">{{msg.payload.subtitulo}}</div>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1090,
+        "y": 1020,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5f282db3d8000da2",
+        "type": "ui_template",
+        "z": "d57922aa9148f385",
+        "g": "7249395a009e3ff5",
+        "group": "0c697a85525e307f",
+        "name": "CARD RSSI MINIMO",
+        "order": 1,
+        "width": "4",
+        "height": "3",
+        "format": "<div class=\"telecom-card\" ng-class=\"msg.payload.estado\">\n    <div class=\"telecom-title\">{{msg.payload.titulo}}</div>\n    <div class=\"telecom-value\">{{msg.payload.valor}}</div>\n    <div class=\"telecom-subtitle\">{{msg.payload.subtitulo}}</div>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1100,
+        "y": 1060,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cadece396c83e18b",
+        "type": "ui_template",
+        "z": "d57922aa9148f385",
+        "g": "7249395a009e3ff5",
+        "group": "0c697a85525e307f",
+        "name": "CARD RSSI MAXIMO",
+        "order": 5,
+        "width": "4",
+        "height": "2",
+        "format": "<div class=\"telecom-card\" ng-class=\"msg.payload.estado\">\n    <div class=\"telecom-title\">{{msg.payload.titulo}}</div>\n    <div class=\"telecom-value\">{{msg.payload.valor}}</div>\n    <div class=\"telecom-subtitle\">Promedio de recuperación</div>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1100,
+        "y": 1100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ee39ba15fce30df0",
+        "type": "ui_template",
+        "z": "d57922aa9148f385",
+        "g": "8fc164d3fac9e007",
+        "group": "b71d2063e14052c7",
+        "name": "CSS CARDS TELECOM",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "format": "<style>\n    .telecom-card {\n        padding: 12px 14px;\n        border-radius: 7px;\n        background: #111827;\n        border: 1px solid #334155;\n        color: #e5e7eb;\n        min-height: 78px;\n        box-sizing: border-box;\n    }\n\n    .telecom-title {\n        color: #94a3b8;\n        font-size: 12px;\n        font-weight: 700;\n        text-transform: uppercase;\n    }\n\n    .telecom-value {\n        font-size: 27px;\n        font-weight: 800;\n        margin-top: 6px;\n        line-height: 1.1;\n    }\n\n    .telecom-subtitle {\n        font-size: 11px;\n        color: #94a3b8;\n        margin-top: 4px;\n    }\n\n    .telecom-card.ok {\n        border-color: #22c55e;\n        box-shadow: 0 0 14px rgba(34, 197, 94, 0.22);\n    }\n\n    .telecom-card.ok .telecom-value {\n        color: #22c55e;\n    }\n\n    .telecom-card.warn {\n        border-color: #facc15;\n        box-shadow: 0 0 14px rgba(250, 204, 21, 0.20);\n    }\n\n    .telecom-card.warn .telecom-value {\n        color: #facc15;\n    }\n\n    .telecom-card.bad {\n        border-color: #ef4444;\n        box-shadow: 0 0 14px rgba(239, 68, 68, 0.22);\n    }\n\n    .telecom-card.bad .telecom-value {\n        color: #ef4444;\n    }\n</style>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "global",
+        "className": "",
+        "x": 150,
+        "y": 1060,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6face0fcaeb593a2",
+        "type": "ui_template",
+        "z": "d57922aa9148f385",
+        "g": "8fc164d3fac9e007",
+        "group": "",
+        "name": "CSS Dashboard Telecom",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "format": "Added to site\n\n<head> section",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "global",
+        "className": "",
+        "x": 150,
+        "y": 1020,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "61ab49d7a20438b3",
+        "type": "ui_chart",
+        "z": "d57922aa9148f385",
+        "g": "7249395a009e3ff5",
+        "name": "RSSI HISTORICO",
+        "group": "822b1a9bdb5fad35",
+        "order": 0,
+        "width": "12",
+        "height": "5",
+        "label": "RSSI dBm",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "-95",
+        "ymax": "-35",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1090,
+        "y": 980,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "286b4ac841dcf125",
+        "type": "ui_template",
+        "z": "d57922aa9148f385",
+        "g": "7249395a009e3ff5",
+        "group": "b71d2063e14052c7",
+        "name": "CARD RSSI ACTUAL",
+        "order": 5,
+        "width": "4",
+        "height": "2",
+        "format": "<div class=\"telecom-card\" ng-class=\"msg.payload.estado\">\n    <div class=\"telecom-title\">{{msg.payload.titulo}}</div>\n    <div class=\"telecom-value\">{{msg.payload.valor}}</div>\n    <div class=\"telecom-subtitle\">Umbral crítico: menor a -80 dBm</div>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1100,
+        "y": 1300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8c9526c489f34e2f",
+        "type": "ui_template",
+        "z": "d57922aa9148f385",
+        "g": "7249395a009e3ff5",
+        "group": "b71d2063e14052c7",
+        "name": "CARD ESTADO ENLACE",
+        "order": 5,
+        "width": "4",
+        "height": "2",
+        "format": "<div class=\"telecom-card\" ng-class=\"msg.payload.estado\">\n    <div class=\"telecom-title\">{{msg.payload.titulo}}</div>\n    <div class=\"telecom-value\">{{msg.payload.valor}}</div>\n    <div class=\"telecom-subtitle\">Umbral crítico: menor a -80 dBm</div>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1110,
+        "y": 1340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "94ed3f7d3f6a50e5",
+        "type": "ui_button",
+        "z": "2fb409831d11f58d",
+        "g": "9356f47a0c78f647",
+        "name": "",
+        "group": "dd930b46adb958bf",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "INICIAR CICLO",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "green",
+        "className": "",
+        "icon": "",
+        "payload": "START",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 120,
+        "y": 60,
+        "wires": [
+            [
+                "86702766c0b1193c"
+            ]
+        ]
+    },
+    {
+        "id": "86702766c0b1193c",
+        "type": "function",
+        "z": "2fb409831d11f58d",
+        "g": "9356f47a0c78f647",
+        "name": "FUNCTION START",
+        "func": "let ciclo = flow.get(\"cycle_s\") || 0;\n\nif (ciclo <= 0) {\n    node.warn(\"No hay tiempo confirmado para iniciar ciclo\");\n    return null;\n}\n\nmsg.payload = JSON.stringify({\n    cmd: \"START\",\n    cycle_s: ciclo,\n    source: \"dashboard_manual\",\n    ts: Date.now()\n});\n\nreturn msg;\n\n//BOTON START ANTES//\n//let ciclo = flow.get(\"cycle_s\") || 120;\n\nmsg.payload = JSON.stringify({\n    cmd: \"START\",\n    cycle_s: ciclo,\n    source: \"dashboard_manual\",\n    ts: Date.now()\n});\n\n//return msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 60,
+        "wires": [
+            [
+                "eca9c5e0d54a9b7c"
+            ]
+        ]
+    },
+    {
+        "id": "eca9c5e0d54a9b7c",
+        "type": "mqtt out",
+        "z": "2fb409831d11f58d",
+        "name": "MQTT CMD",
+        "topic": "/cabina_uvc/cmd",
+        "qos": "1",
+        "retain": "false",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "cd8f7fdfbfe441bb",
+        "x": 1450,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "bd5e0c312ac5d6ae",
+        "type": "ui_button",
+        "z": "2fb409831d11f58d",
+        "g": "9356f47a0c78f647",
+        "name": "",
+        "group": "dd930b46adb958bf",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "DETENER CICLO",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "red",
+        "className": "",
+        "icon": "",
+        "payload": "STOP",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 130,
+        "y": 120,
+        "wires": [
+            [
+                "9478786b2d7199d9"
+            ]
+        ]
+    },
+    {
+        "id": "9478786b2d7199d9",
+        "type": "function",
+        "z": "2fb409831d11f58d",
+        "g": "9356f47a0c78f647",
+        "name": "FUNCTION STOP",
+        "func": "msg.payload = JSON.stringify({\n    cmd: \"STOP\",\n    source: \"dashboard_manual\",\n    ts: Date.now()\n});\n\nreturn msg;\n\n//STOP ANTES\nmsg.payload = {\n    cmd: \"STOP\",\n    ts: Date.now()\n};\n//return msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 120,
+        "wires": [
+            [
+                "eca9c5e0d54a9b7c"
+            ]
+        ]
+    },
+    {
+        "id": "aa7a63a94703b7b1",
+        "type": "ui_button",
+        "z": "2fb409831d11f58d",
+        "g": "9356f47a0c78f647",
+        "name": "",
+        "group": "dd930b46adb958bf",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "REINICIAR CICLO",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "orange",
+        "className": "",
+        "icon": "",
+        "payload": "RESET",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 130,
+        "y": 180,
+        "wires": [
+            [
+                "d509d5da96a94ac6"
+            ]
+        ]
+    },
+    {
+        "id": "d509d5da96a94ac6",
+        "type": "function",
+        "z": "2fb409831d11f58d",
+        "g": "9356f47a0c78f647",
+        "name": "FUNCTION RESET",
+        "func": "msg.payload = JSON.stringify({\n    cmd: \"RESET\",\n    source: \"dashboard_manual\",\n    ts: Date.now()\n});\n\nreturn msg;\n\n//RESET ANTES//\nmsg.payload = {\n    cmd: \"RESET\",\n    ts: Date.now()\n};\n//return msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 180,
+        "wires": [
+            [
+                "eca9c5e0d54a9b7c"
+            ]
+        ]
+    },
+    {
+        "id": "0d66f95ccf637df8",
+        "type": "ui_button",
+        "z": "2fb409831d11f58d",
+        "g": "f591a44efbd34654",
+        "name": "1",
+        "group": "615da4738152941b",
+        "order": 5,
+        "width": "1",
+        "height": "1",
+        "passthru": false,
+        "label": "1",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "#374151",
+        "className": "",
+        "icon": "",
+        "payload": "1",
+        "payloadType": "str",
+        "topic": "key",
+        "topicType": "msg",
+        "x": 90,
+        "y": 520,
+        "wires": [
+            [
+                "7c9ba061ed501711"
+            ]
+        ]
+    },
+    {
+        "id": "d681215840817b1b",
+        "type": "ui_button",
+        "z": "2fb409831d11f58d",
+        "g": "f591a44efbd34654",
+        "name": "2",
+        "group": "615da4738152941b",
+        "order": 6,
+        "width": "1",
+        "height": "1",
+        "passthru": false,
+        "label": "2",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "#374151",
+        "className": "",
+        "icon": "",
+        "payload": "2",
+        "payloadType": "str",
+        "topic": "key",
+        "topicType": "msg",
+        "x": 250,
+        "y": 520,
+        "wires": [
+            [
+                "7c9ba061ed501711"
+            ]
+        ]
+    },
+    {
+        "id": "01debd2eaf44f27a",
+        "type": "ui_button",
+        "z": "2fb409831d11f58d",
+        "g": "f591a44efbd34654",
+        "name": "3",
+        "group": "615da4738152941b",
+        "order": 7,
+        "width": "1",
+        "height": "1",
+        "passthru": false,
+        "label": "3",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "#374151",
+        "className": "",
+        "icon": "",
+        "payload": "3",
+        "payloadType": "str",
+        "topic": "key",
+        "topicType": "msg",
+        "x": 410,
+        "y": 520,
+        "wires": [
+            [
+                "7c9ba061ed501711"
+            ]
+        ]
+    },
+    {
+        "id": "366737dd2c29dfad",
+        "type": "ui_button",
+        "z": "2fb409831d11f58d",
+        "g": "f591a44efbd34654",
+        "name": "4",
+        "group": "615da4738152941b",
+        "order": 9,
+        "width": "1",
+        "height": "1",
+        "passthru": false,
+        "label": "4",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "#374151",
+        "className": "",
+        "icon": "",
+        "payload": "4",
+        "payloadType": "str",
+        "topic": "key",
+        "topicType": "msg",
+        "x": 90,
+        "y": 560,
+        "wires": [
+            [
+                "7c9ba061ed501711"
+            ]
+        ]
+    },
+    {
+        "id": "c2f170b5f33e55bc",
+        "type": "ui_button",
+        "z": "2fb409831d11f58d",
+        "g": "f591a44efbd34654",
+        "name": "5",
+        "group": "615da4738152941b",
+        "order": 10,
+        "width": "1",
+        "height": "1",
+        "passthru": false,
+        "label": "5",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "#374151",
+        "className": "",
+        "icon": "",
+        "payload": "5",
+        "payloadType": "str",
+        "topic": "key",
+        "topicType": "msg",
+        "x": 250,
+        "y": 560,
+        "wires": [
+            [
+                "7c9ba061ed501711"
+            ]
+        ]
+    },
+    {
+        "id": "0c0fb8015e6921b8",
+        "type": "ui_button",
+        "z": "2fb409831d11f58d",
+        "g": "f591a44efbd34654",
+        "name": "6",
+        "group": "615da4738152941b",
+        "order": 11,
+        "width": "1",
+        "height": "1",
+        "passthru": false,
+        "label": "6",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "#374151",
+        "className": "",
+        "icon": "",
+        "payload": "6",
+        "payloadType": "str",
+        "topic": "key",
+        "topicType": "msg",
+        "x": 410,
+        "y": 560,
+        "wires": [
+            [
+                "7c9ba061ed501711"
+            ]
+        ]
+    },
+    {
+        "id": "cc23dadd4946e43d",
+        "type": "ui_button",
+        "z": "2fb409831d11f58d",
+        "g": "f591a44efbd34654",
+        "name": "7",
+        "group": "615da4738152941b",
+        "order": 13,
+        "width": "1",
+        "height": "1",
+        "passthru": false,
+        "label": "7",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "#374151",
+        "className": "",
+        "icon": "",
+        "payload": "7",
+        "payloadType": "str",
+        "topic": "key",
+        "topicType": "msg",
+        "x": 90,
+        "y": 600,
+        "wires": [
+            [
+                "7c9ba061ed501711"
+            ]
+        ]
+    },
+    {
+        "id": "ab6f8f129ded6947",
+        "type": "ui_button",
+        "z": "2fb409831d11f58d",
+        "g": "f591a44efbd34654",
+        "name": "8",
+        "group": "615da4738152941b",
+        "order": 14,
+        "width": "1",
+        "height": "1",
+        "passthru": false,
+        "label": "8",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "#374151",
+        "className": "",
+        "icon": "",
+        "payload": "8",
+        "payloadType": "str",
+        "topic": "key",
+        "topicType": "msg",
+        "x": 250,
+        "y": 600,
+        "wires": [
+            [
+                "7c9ba061ed501711"
+            ]
+        ]
+    },
+    {
+        "id": "e589271b4822132d",
+        "type": "ui_button",
+        "z": "2fb409831d11f58d",
+        "g": "f591a44efbd34654",
+        "name": "9",
+        "group": "615da4738152941b",
+        "order": 15,
+        "width": "1",
+        "height": "1",
+        "passthru": false,
+        "label": "9",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "#374151",
+        "className": "",
+        "icon": "",
+        "payload": "9",
+        "payloadType": "str",
+        "topic": "key",
+        "topicType": "msg",
+        "x": 410,
+        "y": 600,
+        "wires": [
+            [
+                "7c9ba061ed501711"
+            ]
+        ]
+    },
+    {
+        "id": "a8efabefdc7e6067",
+        "type": "ui_button",
+        "z": "2fb409831d11f58d",
+        "g": "f591a44efbd34654",
+        "name": "START",
+        "group": "615da4738152941b",
+        "order": 8,
+        "width": "1",
+        "height": "1",
+        "passthru": false,
+        "label": "A",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "#008000",
+        "className": "",
+        "icon": "",
+        "payload": "A",
+        "payloadType": "str",
+        "topic": "key",
+        "topicType": "msg",
+        "x": 580,
+        "y": 520,
+        "wires": [
+            [
+                "7c9ba061ed501711"
+            ]
+        ]
+    },
+    {
+        "id": "fa333ed65c527a67",
+        "type": "ui_button",
+        "z": "2fb409831d11f58d",
+        "g": "f591a44efbd34654",
+        "name": "STOP",
+        "group": "615da4738152941b",
+        "order": 12,
+        "width": "1",
+        "height": "1",
+        "passthru": false,
+        "label": "B",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "#dc2626",
+        "className": "",
+        "icon": "",
+        "payload": "B",
+        "payloadType": "str",
+        "topic": "key",
+        "topicType": "msg",
+        "x": 570,
+        "y": 560,
+        "wires": [
+            [
+                "7c9ba061ed501711"
+            ]
+        ]
+    },
+    {
+        "id": "e092c9195b619244",
+        "type": "ui_button",
+        "z": "2fb409831d11f58d",
+        "g": "f591a44efbd34654",
+        "name": "RESET Ciclo",
+        "group": "615da4738152941b",
+        "order": 16,
+        "width": "1",
+        "height": "1",
+        "passthru": false,
+        "label": "C",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "#f59e0b",
+        "className": "",
+        "icon": "",
+        "payload": "C",
+        "payloadType": "str",
+        "topic": "key",
+        "topicType": "msg",
+        "x": 590,
+        "y": 600,
+        "wires": [
+            [
+                "7c9ba061ed501711"
+            ]
+        ]
+    },
+    {
+        "id": "c2025a05b5e94b42",
+        "type": "ui_button",
+        "z": "2fb409831d11f58d",
+        "g": "f591a44efbd34654",
+        "name": "CLEAR",
+        "group": "615da4738152941b",
+        "order": 17,
+        "width": "1",
+        "height": "1",
+        "passthru": false,
+        "label": "#",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "#f59e0b",
+        "className": "",
+        "icon": "",
+        "payload": "#",
+        "payloadType": "str",
+        "topic": "key",
+        "topicType": "msg",
+        "x": 100,
+        "y": 640,
+        "wires": [
+            [
+                "7c9ba061ed501711"
+            ]
+        ]
+    },
+    {
+        "id": "ba1a9102d0771415",
+        "type": "ui_button",
+        "z": "2fb409831d11f58d",
+        "g": "f591a44efbd34654",
+        "name": "0",
+        "group": "615da4738152941b",
+        "order": 18,
+        "width": "1",
+        "height": "1",
+        "passthru": false,
+        "label": "0",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "#374151",
+        "className": "",
+        "icon": "",
+        "payload": "0",
+        "payloadType": "str",
+        "topic": "key",
+        "topicType": "msg",
+        "x": 250,
+        "y": 640,
+        "wires": [
+            [
+                "7c9ba061ed501711"
+            ]
+        ]
+    },
+    {
+        "id": "8524762edf2a3d2d",
+        "type": "ui_button",
+        "z": "2fb409831d11f58d",
+        "g": "f591a44efbd34654",
+        "name": "ENTER",
+        "group": "615da4738152941b",
+        "order": 19,
+        "width": "1",
+        "height": "1",
+        "passthru": false,
+        "label": "*",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "#008000",
+        "className": "",
+        "icon": "",
+        "payload": "*",
+        "payloadType": "str",
+        "topic": "key",
+        "topicType": "msg",
+        "x": 420,
+        "y": 640,
+        "wires": [
+            [
+                "7c9ba061ed501711"
+            ]
+        ]
+    },
+    {
+        "id": "6e779d6478b7f1c2",
+        "type": "ui_button",
+        "z": "2fb409831d11f58d",
+        "g": "f591a44efbd34654",
+        "name": "SAFE RESET",
+        "group": "615da4738152941b",
+        "order": 20,
+        "width": "1",
+        "height": "1",
+        "passthru": false,
+        "label": "D",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "#7c3aed",
+        "className": "",
+        "icon": "",
+        "payload": "D",
+        "payloadType": "str",
+        "topic": "key",
+        "topicType": "msg",
+        "x": 600,
+        "y": 640,
+        "wires": [
+            [
+                "7c9ba061ed501711"
+            ]
+        ]
+    },
+    {
+        "id": "7c9ba061ed501711",
+        "type": "function",
+        "z": "2fb409831d11f58d",
+        "g": "f591a44efbd34654",
+        "name": "FUNCTION Teclado Virtual",
+        "func": "let key = String(msg.payload || \"\").trim();\n\nlet buffer = flow.get(\"keypad_buffer\") || \"\";\nlet confirmed = flow.get(\"cycle_s\") || 0;\n\nlet status = \"\";\nconst maxDigits = 5;\nconst maxCycle = 10000;\n\nlet mqttMsg = {\n    topic: \"/cabina_uvc/cmd\",\n    payload: JSON.stringify({\n        cmd: \"KEY\",\n        key: key,\n        source: \"dashboard_keypad\",\n        ts: Date.now()\n    })\n};\n\nif (/^[0-9]$/.test(key)) {\n    if (buffer.length < maxDigits) {\n        buffer += key;\n    }\n\n    flow.set(\"keypad_buffer\", buffer);\n    status = \"Entrada: \" + buffer + \" s\";\n}\n\nelse if (key === \"#\") {\n    buffer = \"\";\n    flow.set(\"keypad_buffer\", \"\");\n    status = \"Entrada borrada\";\n}\n\nelse if (key === \"*\") {\n    let value = Number(buffer);\n\n    if (buffer === \"\" || isNaN(value) || value <= 0) {\n        status = \"Tiempo invalido\";\n    } else if (value > maxCycle) {\n        status = \"Maximo permitido: \" + maxCycle + \" s\";\n    } else {\n        confirmed = value;\n        flow.set(\"cycle_s\", confirmed);\n        flow.set(\"keypad_buffer\", \"\");\n        status = \"Tiempo confirmado: \" + confirmed + \" s\";\n    }\n}\n\nelse if (key === \"A\") {\n    status = \"START enviado\";\n}\n\nelse if (key === \"B\") {\n    status = \"STOP enviado\";\n}\n\nelse if (key === \"C\") {\n    flow.set(\"keypad_buffer\", \"\");\n    status = \"RESET enviado\";\n}\n\nelse if (key === \"D\") {\n    flow.set(\"keypad_buffer\", \"\");\n    flow.set(\"cycle_s\", 0);\n    status = \"SAFE RESET enviado\";\n}\n\nelse {\n    status = \"Tecla no valida: \" + key;\n}\n\nlet displayMsg = {\n    payload: status\n};\n\nlet inputMsg = {\n    payload: flow.get(\"keypad_buffer\") || \"-\"\n};\n\nlet confirmedMsg = {\n    payload: (flow.get(\"cycle_s\") || 0) + \" s\"\n};\n\nlet lastKeyMsg = {\n    payload: key\n};\n\nreturn [\n    mqttMsg,\n    displayMsg,\n    inputMsg,\n    confirmedMsg,\n    lastKeyMsg\n];",
+        "outputs": 4,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 360,
+        "wires": [
+            [
+                "eca9c5e0d54a9b7c",
+                "121650e7a2cbddc9"
+            ],
+            [
+                "7f5e9bf03e169566"
+            ],
+            [
+                "e47a57ac0d292cac"
+            ],
+            [
+                "6484dbb8e0b50250"
+            ]
+        ]
+    },
+    {
+        "id": "7f5e9bf03e169566",
+        "type": "ui_text",
+        "z": "2fb409831d11f58d",
+        "g": "f591a44efbd34654",
+        "group": "615da4738152941b",
+        "order": 1,
+        "width": "4",
+        "height": "1",
+        "name": "TXT Estado Teclado",
+        "label": "Estado",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1040,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "e47a57ac0d292cac",
+        "type": "ui_text",
+        "z": "2fb409831d11f58d",
+        "g": "f591a44efbd34654",
+        "group": "615da4738152941b",
+        "order": 2,
+        "width": "4",
+        "height": "1",
+        "name": "TXT Entrada actual",
+        "label": "Entrada",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1030,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "6484dbb8e0b50250",
+        "type": "ui_text",
+        "z": "2fb409831d11f58d",
+        "g": "f591a44efbd34654",
+        "group": "615da4738152941b",
+        "order": 3,
+        "width": "4",
+        "height": "1",
+        "name": "TXT Tiempo confirmado",
+        "label": "Tiempo",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1050,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "fabd4e61db38f308",
+        "type": "ui_template",
+        "z": "2fb409831d11f58d",
+        "g": "f591a44efbd34654",
+        "group": "615da4738152941b",
+        "name": "Leyenda Teclado",
+        "order": 20,
+        "width": "4",
+        "height": "2",
+        "format": "<div style=\"font-size:12px; line-height:2; color:#d1d5db; padding:2px 0;\">\n  A=START | B=STOP<br>\n  C=RESET | D=SAFE RESTART<br>\n  *=ENTER | #=CLEAR\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1070,
+        "y": 640,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "121650e7a2cbddc9",
+        "type": "debug",
+        "z": "2fb409831d11f58d",
+        "g": "f591a44efbd34654",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1000,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "d1f3adbc7cbd9a55",
+        "type": "ui_button",
+        "z": "2fb409831d11f58d",
+        "g": "aebc31a75b35fb53",
+        "name": "Limpiar métricas",
+        "group": "b71d2063e14052c7",
+        "order": 5,
+        "width": "28",
+        "height": "1",
+        "passthru": false,
+        "label": "Limpiar métricas",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "delete",
+        "payload": "limpiar",
+        "payloadType": "str",
+        "topic": "reset_metricas",
+        "topicType": "msg",
+        "x": 1040,
+        "y": 780,
+        "wires": [
+            [
+                "c6c3fdb94f255c9e",
+                "27d29a5aee03c56c"
+            ]
+        ]
+    },
+    {
+        "id": "c6c3fdb94f255c9e",
+        "type": "function",
+        "z": "2fb409831d11f58d",
+        "g": "aebc31a75b35fb53",
+        "name": "RESET MÉTRICAS",
+        "func": "global.set(\"telecom_stats\", null);\nglobal.set(\"latency_stats\", null);\nglobal.set(\"test_1000\", null);\n\nmsg.payload = \"Métricas reiniciadas correctamente\";\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1250,
+        "y": 760,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f0bf8e55d7bd64ef",
+        "type": "ui_button",
+        "z": "2fb409831d11f58d",
+        "g": "ad7ffbefbe7eecea",
+        "name": "Exportar CSV",
+        "group": "ee12068e656b2dc3",
+        "order": 1,
+        "width": "16",
+        "height": "1",
+        "passthru": false,
+        "label": "Exportar CSV",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "file_download",
+        "payload": "exportar",
+        "payloadType": "str",
+        "topic": "exportar_csv",
+        "topicType": "msg",
+        "x": 120,
+        "y": 780,
+        "wires": [
+            [
+                "6d95e9715baf61dc"
+            ]
+        ]
+    },
+    {
+        "id": "6d95e9715baf61dc",
+        "type": "function",
+        "z": "2fb409831d11f58d",
+        "g": "ad7ffbefbe7eecea",
+        "name": "GENERAR CSV BITÁCORA",
+        "func": "let stats = global.get(\"telecom_stats\") || {};\nlet events = stats.events || [];\n\nif (events.length === 0) {\n    msg.payload = \"No hay eventos para exportar\";\n    return [null, msg];\n}\n\nlet headers = [\n    \"fecha_pc\",\n    \"device_id\",\n    \"fw_version\",\n    \"msg_id\",\n    \"state\",\n    \"door\",\n    \"relay_uvc\",\n    \"cycle_s\",\n    \"remaining_s\",\n    \"confirmed_s\",\n    \"cycle_count\",\n    \"rssi\",\n    \"wifi_status\",\n    \"mqtt_status\",\n    \"fault_code\",\n    \"fault_detail\",\n    \"last_cmd\",\n    \"source\",\n    \"free_heap\",\n    \"esp_ts_ms\",\n    \"pdr\"\n];\n\nlet lines = [];\nlines.push(headers.join(\",\"));\n\nfor (let e of events.slice().reverse()) {\n    let row = headers.map(h => {\n        let value = e[h] ?? \"\";\n        return `\"${String(value).replace(/\"/g, '\"\"')}\"`;\n    });\n\n    lines.push(row.join(\",\"));\n}\n\nmsg.payload = lines.join(\"\\n\");\n\n///cada exportación tenga nombre único con fecha/hora de nicaragua///\n\nlet now = new Date();\n\nlet yyyy = now.getFullYear();\nlet mm = String(now.getMonth() + 1).padStart(2, \"0\");\nlet dd = String(now.getDate()).padStart(2, \"0\");\nlet hh = String(now.getHours()).padStart(2, \"0\");\nlet min = String(now.getMinutes()).padStart(2, \"0\");\nlet ss = String(now.getSeconds()).padStart(2, \"0\");\n\nlet stamp = yyyy + \"-\" + mm + \"-\" + dd + \"_\" + hh + \"-\" + min + \"-\" + ss;\n\nmsg.filename = \"C:\\\\Users\\\\Bismarck Herrera L\\\\Downloads\\\\bitacora_cabina_uvc_\" + stamp + \".csv\";\n\n\nlet aviso = {\n    payload: \"CSV exportado correctamente\"\n};\n\nreturn [msg, aviso];",
+        "outputs": 2,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 780,
+        "wires": [
+            [
+                "b8eafa8d69038a14"
+            ],
+            [
+                "8fb83a02f5017dc0"
+            ]
+        ]
+    },
+    {
+        "id": "27d29a5aee03c56c",
+        "type": "ui_toast",
+        "z": "2fb409831d11f58d",
+        "g": "aebc31a75b35fb53",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "Notificación",
+        "x": 1230,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "b8eafa8d69038a14",
+        "type": "file",
+        "z": "2fb409831d11f58d",
+        "g": "ad7ffbefbe7eecea",
+        "name": "dejar vacío",
+        "filename": "filename",
+        "filenameType": "msg",
+        "appendNewline": false,
+        "createDir": false,
+        "overwriteFile": "true",
+        "encoding": "utf8",
+        "x": 650,
+        "y": 760,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8fb83a02f5017dc0",
+        "type": "ui_toast",
+        "z": "2fb409831d11f58d",
+        "g": "ad7ffbefbe7eecea",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "CSV exportado correctamente",
+        "x": 710,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "330222949bb37e9a",
+        "type": "ui_button",
+        "z": "2fb409831d11f58d",
+        "g": "ad7ffbefbe7eecea",
+        "name": "Limpiar Bitácora",
+        "group": "ee12068e656b2dc3",
+        "order": 4,
+        "width": "16",
+        "height": "1",
+        "passthru": false,
+        "label": "Limpiar Bitácora",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "delete",
+        "payload": "limpiar",
+        "payloadType": "str",
+        "topic": "reset_metricas",
+        "topicType": "msg",
+        "x": 120,
+        "y": 860,
+        "wires": [
+            [
+                "dc8f1f2a964b24d0"
+            ]
+        ]
+    },
+    {
+        "id": "dc8f1f2a964b24d0",
+        "type": "function",
+        "z": "2fb409831d11f58d",
+        "g": "ad7ffbefbe7eecea",
+        "name": "RESET BITACORA",
+        "func": "let stats = global.get(\"telecom_stats\") || {};\nstats.events = [];\n\nglobal.set(\"telecom_stats\", stats);\n\nmsg.payload = \"Bitácora limpiada\";\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 860,
+        "wires": [
+            [
+                "7b5d7d1ac4692e22"
+            ]
+        ]
+    },
+    {
+        "id": "7b5d7d1ac4692e22",
+        "type": "ui_toast",
+        "z": "2fb409831d11f58d",
+        "g": "ad7ffbefbe7eecea",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "Notificación",
+        "x": 530,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "c30b1511b7ed59c5",
+        "type": "ui_button",
+        "z": "2fb409831d11f58d",
+        "g": "e99bd2c59e070eae",
+        "name": "Prueba 1000 mensaje",
+        "group": "858b02ff11bdaed9",
+        "order": 4,
+        "width": "9",
+        "height": "1",
+        "passthru": false,
+        "label": "Iniciar prueba 1000 mensajes",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "play_arrow",
+        "payload": "iniciar",
+        "payloadType": "str",
+        "topic": "prueba_1000",
+        "topicType": "msg",
+        "x": 140,
+        "y": 1020,
+        "wires": [
+            [
+                "c6de19e17fe71fb2"
+            ]
+        ]
+    },
+    {
+        "id": "c6de19e17fe71fb2",
+        "type": "function",
+        "z": "2fb409831d11f58d",
+        "g": "e99bd2c59e070eae",
+        "name": "INICIAR ENSAYO DE 1000 MENSAJES",
+        "func": "global.set(\"telecom_stats\", null);\n\nglobal.set(\"test_1000\", {\n    active: true,\n    start_time: Date.now(),\n    target: 1000,\n    current: 0,\n    progress: 0\n});\n\nmsg.payload = \"Prueba de 1000 mensajes iniciada\";\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 1000,
+        "wires": [
+            [
+                "7e65ff81fd7f02f0"
+            ]
+        ]
+    },
+    {
+        "id": "7e65ff81fd7f02f0",
+        "type": "ui_toast",
+        "z": "2fb409831d11f58d",
+        "g": "e99bd2c59e070eae",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "Notificación",
+        "x": 710,
+        "y": 980,
+        "wires": []
+    },
+    {
+        "id": "073bc8b3cbd99941",
+        "type": "ui_template",
+        "z": "2fb409831d11f58d",
+        "g": "e99bd2c59e070eae",
+        "group": "858b02ff11bdaed9",
+        "name": "LEYENDA PRUEBA 1000 MENSAJES",
+        "order": 20,
+        "width": "9",
+        "height": "3",
+        "format": "<div style=\"font-size:14px; line-height:2; color:#d1d5db; padding:2px 0;\">\n- Ensayo MQTT de 1000 muestras de telemetrías para validar confiabilidad del enlace.<br>\n- Evalúa PDR, RSSI, pérdidas, latencia y reconexión WiFi/MQTT.<br>\n- Genera bitácora CSV como evidencia experimental.\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 770,
+        "y": 1060,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5e4b9890e329c698",
+        "type": "global-config",
+        "env": [],
+        "modules": {
+            "node-red-dashboard": "3.6.6",
+            "node-red-node-ui-table": "0.4.5"
+        }
+    }
+]
